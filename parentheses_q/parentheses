@@ -1,0 +1,16 @@
+// Parentheses evaluation:
+// =====================================================================
+// A parentheses expression is an expression of the following form:
+//  * It is opened with a '('
+//  * It is closed with a ')
+//  * It contains numbers separated by spaces
+//  * It can also contain other expressions
+//
+// Write a function that recieves such an expression as an arugment returns
+// a string that contains the expression sums separated by spaces:
+//
+// Example: For expr = "(1 2 (20 10) 3 4 (1 5 (6 2)))"
+// The function evaluate(expr) would return "30 8 6 10"
+// Since 30=20+10 , 8=6+2, 6=1+5, 10=1+2+3+4
+//
+
